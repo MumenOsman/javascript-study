@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* The upper bound is 26px, and the lower bound is 10px. */
+.letter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 14px; /* Default font-size */
+}
+
+.letter.selected {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.btn-container {
+    /* stay at the center bottom of the screen */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-container button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    font-size: 26px;
+    font-weight: bold;
+}
