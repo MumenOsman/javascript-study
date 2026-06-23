@@ -1,0 +1,41 @@
+:root {
+    --orange: orange;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.zone {
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.outside {
+    left: 0;
+    background-color: red;
+}
+
+.inside {
+    right: 0;
+    background-color: green;
+}
+
+.character {
+    position: absolute;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: white;
+}
+
+.follow {
+    transform: translate(-50%, -50%);
+}
