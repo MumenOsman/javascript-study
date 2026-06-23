@@ -8,5 +8,7 @@ A workspace repository for practicing and studying various JavaScript concepts, 
 - **chessboard**: Generating a chessboard dynamically using JavaScript.
 - **geometry**: Basic mathematical and shape properties calculations (rectangle, square, triangle).
 - **grow-and-shrink**: DOM interactions to animate/change sizes of elements dynamically.
+- **sprint**: Folderless JavaScript exercise files containing core JS practice problems.
 - **team-links**: A modern links portal application.
 - **toggle-class**: Practices for switching and manipulating active states using CSS classes in JS.
+
