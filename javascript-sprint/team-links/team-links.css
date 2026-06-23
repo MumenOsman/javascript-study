@@ -1,0 +1,5 @@
+/* Team Links Styles */
+
+.team-links li:hover a {
+    font-weight: bold;
+}
